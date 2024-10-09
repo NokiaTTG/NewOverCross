@@ -1,0 +1,21 @@
+        /*  <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.outfit-light {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.titillium-web-regular {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titillium-web-black {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}

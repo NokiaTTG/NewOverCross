@@ -1,0 +1,108 @@
+#cabeca {
+    position: sticky;
+    top: 0px;
+    margin: 0;
+
+    nav {
+        background-color: rgb(0, 0, 0, 0.75);
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+
+
+        p {
+            color: whitesmoke;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+}
+
+.menu {
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    align-items: stretch;
+    display: flex;
+}
+
+div {
+    margin-right: 3%;
+    align-content: space-around;
+    justify-content: center;
+    color: white;
+}
+
+div.navbar{
+    font-size: 24px;
+}
+
+div.oc {
+    margin-right: 40%;
+}
+
+h1 {
+    margin-right: 15%;
+    text-align: left;
+}
+
+#txtsubt {
+    display: inline;
+    justify-content: center;
+}
+
+div.apre {
+    width: 50%;
+    height: 50px;
+    padding: 0 15px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+div.apre p.txt {
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+div.apre p.num {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    text-align: center;
+
+    background-color: #a569bd;
+    border-radius: 100%;
+}
+
+h2.tit{
+    text-align: center;
+    padding: 10px;
+    color:#a569bd;
+}
+
+p.txt{
+    text-align: center;
+    width: 50%;
+    margin: 0 25%;
+    color:#5bbdff;
+    
+}
+
+p.txt2{
+    text-align: center;
+    width: 50%;
+    margin: 0 25%;
+    color:#a569bd;   
+    }
+
+section{
+    margin: 5% 33% 1% 33% ; 
+    border-radius: 20px;
+    border: 2px double;
+    width: fit-content;
+    background-color:rgba(0, 0, 0, 0.75);
+}
+
+article{
+    display: grid;
+    grid-column: auto;
+}
