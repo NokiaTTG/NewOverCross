@@ -97,7 +97,6 @@ p.txt2{
 section{
     margin: 5% 33% 1% 33% ; 
     border-radius: 20px;
-    border: 2px double; /* Aqui cria uma bolinha em outras páginas */
     width: fit-content;
     background-color:rgba(0, 0, 0, 0.75);
 }
