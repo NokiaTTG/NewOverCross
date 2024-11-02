@@ -11,70 +11,33 @@
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Titillium+Web&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/fontes.css">
     <link rel="stylesheet" href="../CSS/style.css">
-
-    <style>
-        section.form {
-            width: 416px;
-            height: 500px;
-        }
-        header{
-            display: flex;
-            flex-direction: row;
-        }
-        header>p.return {
-            position: sticky;
-            top: 0px;
-        }
-        /* .return {
-            text-align: left;
-            padding: 20px;
-            color: black;
-            font-size: 24px;
-        } */
-        p.return{
-            color:#a569bd;
-            margin:3% 18% 0 3%;
-        }
-    </style>
 </head>
 
 <body>
-    <header id="cabeca">
-            <p class="return outfit-light"><a href="../HTML/inicial.html">
+    <header class="topoCadastro">
+        <p class="outfit-light btnRetorna"><a href="../HTML/inicial.html">
                 < </a>
         </p>
-        <div>
-            <h1 id="title" class="outfit-light"><span style="color: #a569bd">Over</span><span
-                    style="color:#2e86c1">Cross</span></h1>
-            <p id="txtsubt" class="outfit-light">Onde você conhece pessoas!</p>
+        <div class="logoSite">
+            <h1 class="outfit-light"><span style="color: #a569bd">Over</span><span style="color:#2e86c1">Cross</span></h1>
+            <p id="txtSubt" class="outfit-light">Onde você conhece pessoas!</p>
         </div>
     </header>
 
-    <section Class="form">
+    <section>
+        <h2 id="subtitulo">Continue seu cadastro:</h2><br>
+        <h3>Quando você nasceu?</h3>
+        <form id="formCadastro2">
+            <div>
+                <label for="idade"></label>
+                <input class="input" type="date" name="idade">
+            </div>
+        <h3>Qual seu gênero?</h3>
 
-        <h2 id="subtitle">Continue seu cadastro:<br>Quando você nasceu?</h2>
-
-        <form>
-
-            <p class="ida">
-                <label for="ida"></label>
-                <input class="inp" type="date" name="ida">
-            </p>
-
-        </form>
-
-        <h2 id="subtitle">Qual seu gênero?</h2>
-
-        <form id="form_gen"></form>
-        <!-- Parte 1 Gênero e Idade -->
-
-        <select style="width: 200px; text-align: center; margin-left: 26%;">
+        <select id="selectGenero">
             <option>Feminino</option>
             <option>Masculino</option>
             <option>Não-Binarie</option>
@@ -82,24 +45,19 @@
         </select>
 
         <div>
-            <button id="btn1" class="titillium-web-regular" type="submit">Criar Conta!</button><br>
+            <button class="btnCadastro titillium-web-regular" id="btnCadastro2"  type="submit">Criar Conta!</button><br>
         </div>
-
-
+        
         <div>
-            <p style="font-weight: 400;"><span style="color: white; cursor: default;">Tem conta? </span><a href="#"><span
-                        class="sobre">Faça Login!</span></a>
+            <p style="font-weight: 400;"><span style="color: white; cursor: default;">Tem conta?</span><a href="#"><span class="sobre">Faça Login!</span></a>
             </p>
         </div>
-
         </form>
 
     </section>
 
-
     <footer>
-        <p>Contato: <a href="#"><span style="color: black; font-style: italic;">Serviço de Atendimento ao
-                    Cliente</span></a></p>
+        <p>Contato: <a href="#"><span style="color: black; font-style: italic;">Serviço de Atendimento ao Cliente</span></a></p>
     </footer>
 
 </body>
