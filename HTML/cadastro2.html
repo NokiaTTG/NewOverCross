@@ -1,63 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OverCross: Meet People!</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Titillium+Web&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/style.css">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
 
-<body>
+  <body>
     <header class="topoCadastro">
-        <p class="outfit-light btnRetorna"><a href="../HTML/home.html">
-                < </a>
-        </p>
-        <div class="logoSite">
-            <h1 class="outfit-light"><span style="color: #a569bd">Over</span><span style="color:#2e86c1">Cross</span></h1>
-            <p class="txtSubt outfit-light">Onde você conhece pessoas!</p>
-        </div>
+      <p class="outfit-light btnRetorna"><a href="../HTML/home.html"> < </a></p>
+      <div class="logoCadastro">
+        <h1 class="outfit-light">
+          <span style="color: #a569bd">Over</span
+          ><span style="color: #2e86c1">Cross</span>
+        </h1>
+        <p class="txtSubt outfit-light">Onde você conhece pessoas!</p>
+      </div>
     </header>
 
     <section>
-        <h2 id="subtitulo">Continue seu cadastro:</h2><br>
-        <h3>Quando você nasceu?</h3>
-        <form id="formCadastro2">
-            <div>
-                <label for="idade"></label>
-                <input class="input" type="date" name="idade">
-            </div>
+      <h2 id="subtitulo">Continue seu cadastro:</h2>
+      <form id="formCadastro2">
+        <h3>Como te chamamos?</h3>
+        <div>
+          <label class="label" for="nick">Diga seu apelido:<br /></label>
+          <input class="input" type="text" name="nick" required />
+        </div>
         <h3>Qual seu gênero?</h3>
-
-        <select id="selectGenero">
+        <div>
+          <label class="label" for="genero">Escolha uma opção:</label><br />
+          <select name="genero" id="selectGenero">
             <option>Feminino</option>
             <option>Masculino</option>
             <option>Não-Binarie</option>
             <option>Prefiro não dizer</option>
-        </select>
-
-        <div>
-            <button class="btnCadastro titillium-web-regular" id="btnCadastro2"  type="submit">Criar Conta!</button><br>
+          </select>
         </div>
-        
+        <h3>Quando você nasceu?</h3>
         <div>
-            <p style="font-weight: 400;"><span style="color: white; cursor: default;">Tem conta?</span><a href="#"><span class="sobre">Faça Login!</span></a>
-            </p>
+          <label class="label" for="dataNascimento">Data de Nascimento:</label
+          ><br />
+          <input class="input" type="date" name="dataNascimento" />
         </div>
-        </form>
-
+        <div>
+          <button
+            class="btnCadastro titillium-web-regular"
+            id="btnCadastro2"
+            type="submit"
+          >
+            Criar Conta!</button
+          ><br />
+        </div>
+        <div>
+          <p class="formFooter" style="font-weight: 400">
+            <span style="color: white; cursor: default">Tem conta?</span
+            ><a href="#"><span class="sobre">Faça Login!</span></a>
+          </p>
+        </div>
+      </form>
     </section>
-
-    <footer>
-        <p>Contato: <a href="#"><span style="color: black; font-style: italic;">Serviço de Atendimento ao Cliente</span></a></p>
-    </footer>
-
-</body>
+  </body>
+</html>
