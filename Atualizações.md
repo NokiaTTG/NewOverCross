@@ -4,11 +4,6 @@
         * reposicionamento do rodapé;
         * Alteração do tamanho de algumas fontes;
         * reposicionamento de sessões do site, entre outras alterações da aparência...
-![](https://vscode.dev/github/NokiaTTG/overcross/blob/main/image/visual1/cadastro1VisualV1.png)
-![](https://vscode.dev/github/NokiaTTG/overcross/blob/main/image/visual1/cadastro2VisualV1.png)
-![](https://vscode.dev/github/NokiaTTG/overcross/blob/main/image/visual1/homeVisualV1.png)
-![](https://vscode.dev/github/NokiaTTG/overcross/blob/main/image/visual1/loginVisualV1.png)
-        
         
 #### * Atualização - 02/11/2024
     1. Mudança de nomenclatura de classes e ID's
